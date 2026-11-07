@@ -1,8 +1,8 @@
 # plaso-windows-build
 
-Unofficial portable Windows builds of [plaso (log2timeline)](https://github.com/log2timeline/plaso).
+Unofficial portable Windows builds of [plaso (log2timeline)](https://github.com/log2timeline/plaso). This repo has NO association with the developers of log2timeline or plaso; it is recommended you use the docker route or SANS SIFT instead when possible. Releases are considered experimental and unsupported. 
 
-Every day a GitHub Actions workflow checks plaso's latest release. If this repo has no
+GitHub Actions workflow checks plaso's latest release. If this repo has no
 release with that tag yet, it:
 
 1. checks out plaso at that tag on a `windows-2025` runner,
